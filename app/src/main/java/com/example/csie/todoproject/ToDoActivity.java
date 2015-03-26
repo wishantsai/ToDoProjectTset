@@ -36,7 +36,7 @@ public class ToDoActivity extends ActionBarActivity {
         items.add("Item 2");
         itemsAdapter = new ArrayAdapter<String>(this,
                 android.R.layout.simple_list_item_1, items);
-
+//
         lvItems.setAdapter(itemsAdapter);
         lvItems.setOnItemLongClickListener(deleteItem);
 
